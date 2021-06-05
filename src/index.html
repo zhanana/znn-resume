@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport"
     content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
-  <title>我的简历</title>
+  <title>吕宜虎-前端开发简历</title>
   <style>
     * {
       box-sizing: border-box;
@@ -95,6 +95,7 @@
       position: absolute;
       top: 0;
       right: 0;
+      object-fit: contain;
     }
   </style>
 
@@ -262,83 +263,73 @@
 <body>
   <article>
     <section class="bio">
-      <h1>方应杭</h1>
-      <img src="https://pic2.zhimg.com/v2-d206f673b1e7b8a7e3b31bc8041e05e2_xll.jpg" alt="" width="100" height="100">
+      <h1>吕宜虎</h1>
+      <img src="./images/lvyihu.jpg" alt="" width="100" height="120">
       <p>
-        男 | 30岁 | 前端开发工程师 | 杭州
+        男 | 23岁 | 前端开发工程师 | 合肥
       </p>
       <p>
-        手机：13812345678 | 微信：frank_fang | 邮箱：fangyinghang@foxmail.com
+        手机：18758887220 | 微信：Mua_yihu_HZ | 邮箱：1720427782@qq.com
       </p>
     </section>
-
-
-
-
-
 
     <section class="projects">
       <h2>项目经历</h2>
       <ol>
         <li>
           <header>
-            <h3>谷UI</h3>
+            <h3>NaNa-UI</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="#">项目预览</a>
+              <a target="_blank" href="https://github.com/ertigers/NaNa-UI-vue3">源码链接</a>
+              <a target="_blank" href="https://ertigers.github.io/nana-ui-website/index.html">项目预览</a>
             </span>
           </header>
+
           <p>
-            一款基于 <strong>React</strong> / <strong>TypeScript</strong> / <strong>Webpack</strong> 的 UI 框架。
+            这是一款基于 <strong>Vue 3</strong> / <strong>TypeScript</strong> 的 UI 库。
 
           </p>
           <p>
-            主要组件有日期选择器、弹出框、<strong>下拉更新</strong>、树形选择器等。
-
+            涵盖了 Button、Switch 、Dialog、Tabs... 等常见 UI 组件。
           </p>
           <p>
-            已被公司前端同事广泛使用，有效提高前端团队的开发效率。
-
+            深入研究 Vue 3，使用了 setup、onMounted、watchEffect、ref、computed 等 Compositioin API
+            模块化的源代码简洁明了，易于阅读。
           </p>
           <p>
-            制作过程让我对 TypeScript 和单元测试有了新的认识。
-            我将其总结成了一篇博客《TS 泛型的使用》。
+            我还推出了<strong>官方文档</strong>，可在线查看示例代码，并支持 PC 和手机浏览，我的个人项目都有使用NaNa-UI库。
           </p>
         </li>
         <li>
           <header>
-            <h3>写代码啦.com</h3>
+            <h3>口袋考研.com</h3>
             <span>
-              <a href="#">源码私有</a>
-              <a href="#">项目预览</a>
+              <a  target="_blank" href="https://www.koudaikaoyan.com">项目预览</a>
             </span>
           </header>
           <p>
-            这是一个基于 <strong>Rails</strong> 和 <strong>Vue</strong> 的多页面应用。
+            这是一个基于 <strong>Vue 2全家桶</strong> 的单页面应用。包括PC和移动端的自动切换。
           </p>
           <p>
-            主要功能包括微信登录、手机验证、直播、点播、反盗版、答题系统、课程管理系统等。
-            从数据库设计到前端展示，都是由我主导，另有两名前端辅助我。
+            我主要负责资料商城、口袋导航等模块，主要功能包括购买考研资料，视频课程，专业选择等。
           </p>
           <p>
-            该系统<strong>大幅提高教学效率</strong>，优化教学流程，受到公司和用户的好评。
+            我还负责<strong>微信小程序</strong>，PC端，移动端网站的维护。
           </p>
         </li>
         <li>
           <header>
-            <h3>旺财记账</h3>
+            <h3>虎虎记账</h3>
             <span>
-              <a href="#">源码私有</a>
-              <a href="#">项目预览</a>
+              <a target="_blank" href="https://github.com/ertigers/HuHuLog-react">源码链接</a>
+              <a target="_blank" href="https://ertigers.github.io/HuHuLog-react-website/index.html">项目预览</a>
             </span>
           </header>
           <p>
             一个基于 <strong>React</strong> / <strong>TypeScript</strong> 的移动端单页面应用。
           </p>
-
           <p>
-            这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账，
-            而且可以通过图表查看自己的消费习惯。
+            这是我从自己的需求出发，设计出的极简记账应用，特点是快速记账。自己和朋友都在使用，并且不断优化更新。
           </p>
           <p>
             该项目大量使用 <strong>React Hooks</strong>，让我对 Hooks 有了深刻的理解和应用。
@@ -346,9 +337,6 @@
         </li>
       </ol>
     </section>
-
-
-
 
 
     <section class="skills">
@@ -372,29 +360,32 @@
     <section class="openSource">
       <h2>开源项目</h2>
       <ul>
-        <li>
-          <header>
-            <h3>自己写的 DOM 库</h3>
-            <a href="#">源码链接</a>
-          </header>
-          <p>实现了元素选择、元素创建、<strong>事件委托</strong>、滑动手势等常见功能</p>
-        </li>
         <li class="page2">
           <header>
-            <h3>会动的哆啦A梦</h3>
+            <h3>会动的皮卡丘</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="https://fangyinghang.com/make-a-pikachu/">项目预览</a>
+              <a target="_blank" href="https://github.com/ertigers/pikachu">源码链接</a>
+              <a target="_blank" href="https://ertigers.github.io/pikachu/src/index">项目预览</a>
             </span>
           </header>
           <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
         </li>
         <li>
           <header>
+            <h3>自制导航首页</h3>
+            <span>
+              <a target="_blank" href="https://github.com/ertigers/nav-jQuery">源码链接</a>
+              <a target="_blank" href="https://ertigers.github.io/nav-jQuery/dist/index.html">项目预览</a>
+            </span>
+          </header>
+          <p>我在学习 <strong>jQuery</strong> 时做的一个小作品</p>
+        </li>
+        <li>
+          <header>
             <h3>简易画板</h3>
             <span>
-              <a href="#">源码链接</a>
-              <a href="#">项目预览</a>
+              <a target="_blank" href="https://github.com/ertigers/demos-2/tree/main/canvas">源码链接</a>
+              <a target="_blank" href="https://ertigers.github.io/demos-2/canvas/">项目预览</a>
             </span>
           </header>
           <p>我在学习 <strong>Canvas</strong> 时做的一个小作品</p>
@@ -409,32 +400,20 @@
       <ol>
         <li>
           <header>
-            <h3> 彩云工作室 </h3>
-            <h4>全栈开发工程师（Ruby+JS）</h4>
-            <span><time>2017年1月</time>~<time>2018年1月</time></span>
+            <h3> 杭州知习好悟科技有限责任公司 </h3>
+            <h4>前端开发工程师</h4>
+            <span><time>2020年6月</time>~<time>2021年3月</time></span>
           </header>
           <ul>
             <li>
-              独立负责 iPad 客户端的后台 <strong>Rails</strong> 开发和前端开发工作
+              独立负责蜀黍之家后台管理系统的开发
+            </li>
+            <li> 
+              主要负责资料商城、口袋导航等模块，主要功能包括购买资料，视频课程，专业选择，答题等。
             </li>
             <li>
-              负责团队基础库开发、单元测试、文档撰写，确保测试<strong>覆盖率达到 90%</strong> 以上
+              作为前端骨干，积极与团队成员沟通，提高其前端开发工作效率
             </li>
-            <li>
-              作为前端骨干，负责给前端较弱的同事进行培训，提高其前端开发工作效率
-            </li>
-          </ul>
-        </li>
-        <li>
-          <header>
-            <h3>哦外巴巴集团杭州总部</h3>
-            <h4>开发工程师</h4>
-            <span><time>2015年1月</time>~<time>2017年1月</time></span>
-          </header>
-          <ul>
-            <li>独立负责某 CRM 系统的开发与维护（后端使用Groovy，前端使用JS）</li>
-            <li>负责全部门 <strong>UI 框架的开发</strong>，包括对话框、<strong>树形组件</strong>、<strong>日期选择器</strong>等常用组件</li>
-            <li>定期组织内部分享，包括 Git 的使用、<strong>ES6 新特性</strong>、TypeScript 等话题</li>
           </ul>
         </li>
       </ol>
@@ -443,16 +422,16 @@
     <section class="others">
       <h2>其他链接</h2>
       <ul>
-        <li><a href="https://www.zhihu.com/people/zhihusucks/posts/posts_by_votes">我的博客</a>，目前已有 21 篇技术文章</li>
-        <li><a href="https://github.com/frankfang">我的 GitHub</a>，过去三个月有 200 次提交</li>
+        <!-- <li><a href="https://juejin.cn/user/3658778052140568">我的博客</a>，目前已有 10 篇技术文章</li> -->
+        <li><a href="https://github.com/ertigers">我的 GitHub</a>，过去三个月有 200 次提交</li>
       </ul>
     </section>
 
     <section class="education">
       <h2>教育经历</h2>
       <p>
-        <span><time>2008年</time>~<time>2012年</time></span>
-        关山口职业技术学校 软件学院 本科</p>
+        <span><time>2016年</time>~<time>2020年</time></span>
+        杭州师范大学 信息与计算科学 本科</p>
     </section>
 
   </article>

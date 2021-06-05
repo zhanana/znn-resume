@@ -29,7 +29,7 @@ var option = {
       // areaStyle: {normal: {}},
       data: [
           {
-              value: [100, 70, 90, 80, 85, 70],
+              value: [90, 80, 90, 75, 80, 90],
               name: '能力雷达'
           }
       ]
