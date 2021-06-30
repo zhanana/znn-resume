@@ -1,4 +1,4 @@
-网页预览：https://ertigers.github.io/cv-lvyihu/src/index.html
+网页预览：https://zhanana.github.io/znn-resume/src/index.html
 
 ## 开发模式
 
